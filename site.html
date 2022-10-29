@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="icon" href="logo.png">
+    <title>IZINET</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg menu">
+        <div class="container-fluid">
+          <a class="navbar-brand cormenu" href="site.html">IZINET</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active cormenu" aria-current="page" href="site.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cormenu" href="quiz.html">Teste</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cormenu" href="#sobre">Sobre nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cormenu" href="#">Fórum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cormenu" href="#contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="texto ">
+        <h1 class="titulo">O QUE ESTÁ ACONTECENDO COM A MINHA INTERNET?</h1>
+        <br>
+          <p>Este quiz foi projetado especialmente para você, usuário de internet que gosta de resultados rápidos e assertivos! 
+              Com um mecanismo simples de múltipla escolha faremos o diagnóstico do possível problema presente em sua rede, 
+              juntamente com uma lista de possibilidades ranqueadas das mais prováveis as menos prováveis. Faça o teste e 
+              poupe o tempo que seria gasto com atendimentos telefônicos, mas nunca dispense a consulta de um técnico!
+               As suas respostas serão utilizadas somente para esta finalidade.</p>
+      </div>
+      <div>
+      <button type="button" class="button1"><a href="quiz.html" class="bteste">TESTE</a></button>
+      </div>
+      
+      
+      <div class="sobre"><a name="sobre">
+        <h2>SOBRE NÓS</h2>
+        <p class="textosobre">Nossa equipe é composta por quatro   alunos da Etec de Praia Grande que tiveram como tema de TCC no curso técnico de 
+          Informática abordar redes de computadores por ser algo tão presente no dia a dia das pessoas. Com base nisso, 
+          nossa equipe projetou este site para auxiliar a população que esteja enfrentando problemas com a sua rede pessoal 
+          com um teste prático, buscando tornar o suporte neste quesito mais rápido, dinâmico e acessível. </p>
+      </div>
+
+      <div id="carouselExampleCaptions" class="carousel" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner img">
+          <div class="carousel-item active">
+            <img src="lucas.png" class="img" alt="foto do Lucas">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Lucas Lima</h5>
+            </div>
+          </div>
+          <div class="carousel-item img">
+            <img src="marcelly.png" class="img" alt="foto da Marcelly">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Marcelly Farias</h5>
+            </div>
+          </div>
+          <div class="carousel-item img">
+            <img src="alexandre.png" class="img" alt="foto do Alexandre">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Alexandre Ribeiro</h5>
+            </div>
+          </div>
+          <div class="carousel-item img">
+            <img src="giovanna.png" class="img" alt="foto da Giovanna">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Giovanna Peres</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+
+      <footer>                     
+      <form class="teste" action="https://formspree.io/f/xvoyrozz" method="POST" ><a name="contato"></a>
+        <div class="form">
+          <p class="contato">FALE CONOSCO</p>
+          <label for="ContactComment" class="contato">E-mail</label>
+          <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+
+        <div class="form">
+          <label for="exampleFormControlTextarea3" class="contato">Mensagem</label>
+          <input name="mensagem" textarea class="form-control" id="exampleFormControlTextarea2 pla" rows="3" 
+          placeholder="Digite aqui sua mensagem..."></textarea>
+          <input type="submit" value="send"><br>
+        </div>
+      </form>
+      </footer>
+      <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="teste.js"></script>
+</body>
+</html>

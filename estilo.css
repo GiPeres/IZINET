@@ -1,0 +1,112 @@
+body{
+    background-color: white !important;
+}
+
+.menu{
+    background-color: #090b52;
+}
+
+.cormenu{
+    color: white !important;
+}
+
+.texto{
+    position: absolute;
+    width: 49%;
+    text-align: left;
+    top: 30%;
+    left: 10%;
+    margin-right: -50%;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+
+}
+
+.titulo{
+    color: #5af8fd;
+}
+
+
+.button1{
+    position: absolute;
+    width: 13%;
+    text-align: center;
+    top: 75%;
+    left: 10%;
+    margin-right: -50%;
+    background-color: #bd2ec7;
+    border-radius: 60px;
+    font-size: 24px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.bteste {
+    color: white;
+    text-decoration: none;
+  }
+
+
+.pessoa{
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    margin-right: -50%;
+}
+
+.sobre{
+    position: absolute;
+    width: 49%;
+    text-align: center;
+    top: 130%;
+    left: 25%;
+    margin-right: -50%;
+    color: black;
+    font-size: 30px;
+
+}
+ 
+.textosobre{
+    position: absolute;
+    width: 70%;
+    text-align: center;
+    top: 160%;
+    left: 17%;
+    margin-right: -50%;
+    color: black;
+    font-size: 20px;
+}
+
+.carousel{
+    position: absolute;
+    width: 500px;
+    top: 1320px;
+    left: 35%;
+    margin-right: -50%;
+}
+
+
+.contato{
+    text-align: center;
+    color: black;
+    color: black;
+}
+
+.teste{
+    position: absolute;
+    width: 70%;
+    top: 2600px;
+    left: 17%;
+    margin-right: -50%;
+}
+
+
+.img {
+    width: 500px;
+}
+
+
+html {
+  scroll-behavior: smooth;
+  }
+

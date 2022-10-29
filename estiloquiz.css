@@ -1,0 +1,157 @@
+.alternativas{
+    position: absolute;
+    width: 49%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)  
+}
+
+.questao{
+    position: absolute;
+    width: 60%;
+    text-align: center;
+    top: 26%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: 8px solid #bd2ec7;
+    font-size: larger;
+    border-radius: 20px;
+    box-shadow: 10px 20px black;
+    color: white;
+    background-color: black;
+}
+
+.questaoo{
+    position: absolute;
+    width: 60%;
+    text-align: center;
+    top: 85%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: 8px solid #bd2ec7;
+    font-size: larger;
+    border-radius: 20px;
+    box-shadow: 10px 20px black;
+    color: white;
+    background-color: black;
+}
+
+.alternativass{
+    position: absolute;
+    width: 49%;
+    text-align: center;
+    top: 110%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)  
+}
+
+.questaooo{
+    position: absolute;
+    width: 60%;
+    text-align: center;
+    top: 145%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: 8px solid #bd2ec7;
+    font-size: larger;
+    border-radius: 20px;
+    box-shadow: 10px 20px black;
+    color: white;
+    background-color: black;
+}
+
+.alternativasss{
+    position: absolute;
+    width: 49%;
+    text-align: center;
+    top: 170%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)  
+}
+
+.questaoooo{
+    position: absolute;
+    width: 60%;
+    text-align: center;
+    top: 200%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: 8px solid #bd2ec7;
+    font-size: larger;
+    border-radius: 20px;
+    box-shadow: 10px 20px black;
+    color: white;
+    background-color: black;
+}
+
+.alternativassss{
+    position: absolute;
+    width: 49%;
+    text-align: center;
+    top: 225%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)  
+}
+
+.questaooooo{
+    position: absolute;
+    width: 60%;
+    text-align: center;
+    top: 255%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: 8px solid #bd2ec7;
+    font-size: larger;
+    border-radius: 20px;
+    box-shadow: 10px 20px black;
+    color: white;
+    background-color: black;
+}
+
+.alternativasssss{
+    position: absolute;
+    width: 49%;
+    text-align: center;
+    top: 280%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)  
+}
+
+.button{
+    
+    width: 100%;
+    text-align: center;
+    background-color: #bd2ec7;
+    border-radius: 60px;
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+
+
+body{
+    background-color: white !important;
+}
+
+.menu{
+    background-color: #090b52;
+}
+
+.cormenu{
+    color: white !important;
+}
+
+

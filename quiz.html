@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estiloquiz.css" media="screen" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="icon" href="logo.png">
+    <title>IZINET</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg menu">
+        <div class="container-fluid">
+          <a class="navbar-brand cormenu" href="site.html">IZINET</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active cormenu" aria-current="page" href="site.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cormenu" href="quiz.html">Teste</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cormenu" href="site.html">Sobre nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cormenu" href="site.html">Fórum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cormenu" href="site.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+<div class="questao">
+    <p>Sua Internet está apresentando problemas em quais dispositivos? </p>
+</div>
+
+    <div class="d-grid gap-2 col-6 mx-auto alternativas">
+   <!-- on click pega o id do botão
+        CADA NUMERO RESULTADO NÃO PODE APARECER DDURANTE A SOMA DE NENHUMA OUTRA COMBINAÇÃO
+
+        OU SEJA SE TENHO UMA PAGINA QUE ABRE AO TER VALOR 500, E UMA QUE ABRE COM VALOR 600
+        NÃO POSSO ABRIR A DE 600 COM A CONTA 400 + 100 + 100 POIS NO MEIO DESSA SOMA TEREI O VALOR 500
+        -->
+        <button class="button" type="button" onClick="GetId(this.id); MudaCor(this.id);" id="15">Somente em meus dispositivos móveis 
+        (celular, tablet ou notebook)</button>
+        <button class="button" type="button" onClick="GetId(this.id); MudaCor(this.id);" id="1">Apenas em meu computador desktop</button>
+        <button class="button" type="button" onClick="GetId(this.id); MudaCor(this.id);" id="2">Em todos os meus dispositivos</button>
+        <button class="button" type="button" onClick="GetId(this.id); MudaCor(this.id);" id="404">Não está apresentando lentidão</button>
+      </div>
+
+      <div class="questaoo">
+        <p>A senha de sua Internet foi compartilhada com muitas pessoas? </p>
+    </div>
+    
+    
+        <div class="d-grid gap-2 col-6 mx-auto alternativass">
+            <button class="button" type="button" onClick="GetId(this.id); MudaCor(this.id);" id="15">Somente 
+              os moradores de minha residência sabem a senha</button>
+            <button class="button" type="button" onClick="GetId(this.id); MudaCor(this.id);" id="20">Somente eu 
+              sei a senha</button>
+            <button class="button" type="button" onClick="GetId(this.id); MudaCor(this.id);" id="6">Compartilhei a 
+              senha com pessoas, mas que 
+            não moram próximas a mim</button>
+            <button class="button" type="button" onClick="GetId(this.id); MudaCor(this.id);" id="7">Compartilhei 
+              minha senha com vizinhos </button>
+          </div>
+    
+
+          <div class="questaooo">
+            <p>O quão longe se localiza o roteador em sua residência? </p>
+        </div>
+        
+        
+        <div class="d-grid gap-2 col-6 mx-auto alternativasss">
+            <button class="button" type="button" onClick="GetId(this.id); MudaCor(this.id);" id="15">Bem longe,
+               mas possuo um repetidor </button>
+            <button class="button" type="button" onClick="GetId(this.id); MudaCor(this.id);" id="15">Longe e não 
+              possuo um repetidor </button>
+            <button class="button" type="button" onClick="GetId(this.id); MudaCor(this.id);" id="12">Relativamente 
+              perto</button>
+            <button class="button" type="button" onClick="GetId(this.id); MudaCor(this.id);" id="11">O dispositivo 
+              apresentando problemas de desconexão não acessa Internet Wireless</button>
+          </div>
+
+          <div class="questaoooo">
+            <p>Houve alguns destes eventos em sua região?</p>
+        </div>
+        
+        
+        <div class="d-grid gap-2 col-6 mx-auto alternativassss">
+            <button class="button" type="button" onClick="GetId(this.id); MudaCor(this.id);" id="1">Chuvas fortes </button>
+            <button class="button" type="button" onClick="GetId(this.id); MudaCor(this.id);" id="2">Ventanias</button>
+            <button class="button" type="button" onClick="GetId(this.id); MudaCor(this.id);" id="3">Queda de energia </button>
+            <button class="button" type="button" onClick="GetId(this.id); MudaCor(this.id);" id="16">Não houve nenhum 
+              destes eventos em minha região</button>
+          </div>
+          
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="quizz.js"></script>
+</body>
+</html>
