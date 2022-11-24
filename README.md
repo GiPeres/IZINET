@@ -14,3 +14,5 @@ Alexandre Ribeiro: Documenter
 Our future plans are improving our project by making it more functional.
 
 Any feedback? Contact us! Gmail: izinetquiz@gmail.com
+
+Copyright (c) 2022 IZINET Todos os Diretos Reservados
